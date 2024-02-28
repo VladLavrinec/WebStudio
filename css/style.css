@@ -1,0 +1,172 @@
+:root {
+    --color-light: #FFFFFF;
+    --color-dark: #000000;
+    --color-font-title: #212121;
+    --color-font-text:  #757575;
+    --color-font-active: #2196F3;
+    /* =============================== */
+
+    --color-background-dark: #2F303A;
+    --color-background-light: #F5F4FA;
+    
+
+    
+    /* ==header=================== */
+}
+
+.header-conteiner {
+    background-color: var(--color-light);
+}
+
+.logo {
+    color: var(--color-dark);
+}
+
+.header-nav {
+
+}
+
+.nav-list {
+    color: var(--color-font-title);
+}
+
+.nav-item {
+
+}
+
+.nav-link {
+    color: var(--color-background-dark);
+}
+
+.contacts-list {
+    color: var(--color-font-text);
+}
+
+.contacts-item {
+
+}
+
+.contacts-link {
+    color: var(--color-font-text);
+}
+
+/* ==main============================ */
+
+/* section Hero */
+
+.hero-conteiner {
+    background-color: var(--color-background-dark);
+}
+
+.hero-title {
+    color: var(--color-light);
+}
+
+.hero-button {
+    background-color: var(--color-font-active);
+    color: var(--color-light);
+}
+
+/* section HWW */
+
+.conteiner--hww {
+    background-color: var(--color-light);
+}
+
+.section-hww-title {
+    
+}
+
+.section-hww-list {
+
+}
+
+.section-hww-item {
+    
+}
+
+.section-hww-list-title {
+    color: var(--color-font-title);
+}
+
+.section-hww-text {
+    color: var(--color-font-text);
+}
+
+/*  section WWD */
+
+.conteiner-section-wwd {
+    background-color: var(--color-light);
+}
+    
+.section-wwd-title {
+    color: var(--color-font-title);
+}
+
+.section-wwd-list {
+
+}
+
+.section-wwd-item {
+
+}
+
+.section-wwd-img {
+
+}
+
+/* Our Team */
+
+.conteiner-ot {
+    background-color: var(--color-background-light);
+}
+
+.section-ot-title {
+    color: var(--color-background-dark);
+}
+
+.section-ot-list {
+
+}
+
+.section-ot-item {
+
+}
+
+.section-ot-img {
+
+}
+
+.section-ot-list-title {
+    color: var(--color-font-text);
+}
+
+.section-ot-text {
+    color: var(--color-background-dark);
+}
+
+.section-ot-list-title {
+
+}
+
+/* ==footer================= */
+
+.conteiner-footer {
+    background-color: var(--color-font-title);
+}
+
+.footer-hero {
+
+}
+
+.footer-list {
+
+}
+
+.footer-item {
+
+}
+
+.footer-link {
+    color: var(--color-light);
+}
