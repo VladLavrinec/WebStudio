@@ -171,3 +171,13 @@
 .footer-link {
     color: var(--color-light);
 }
+
+
+/* PORTFOLIO */
+
+/* filter-section */
+
+.filter-button {
+    background-color: var(--color-background-light);
+    color: var(--color-font-title);
+}
