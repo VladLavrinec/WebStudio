@@ -17,15 +17,43 @@
        
 }
 
+.web {
+    color: var(--color-font-active);
+}
+
+.studio {
+    color: var(--color-dark);
+}
+
+.footer-studio {
+    color: var(--color-background-light);
+}
+
+    /* body */
+
+body {
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 1.71;
+} 
+
+/* container */
+
+.container {
+   width: 1170px; 
+   margin: 0 auto;
+   padding: 0 15px;
+    
+}
+
+
 
     /* ==header=================== */
 
-.header-conteiner {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
+    .header {
+        padding: 25px 0;
+    }
 
-}
 
 .logo {
     color: var(--color-font-active);
@@ -34,22 +62,12 @@
     font-size: 26px;
 }
 
-.header-nav {
-
-}
-
-.nav-item:focus, .nav-item:hover {
+.nav-link:focus, .nav-link:hover {
     color: var(--color-font-active);
 }
 
 .nav-list {
     color: var(--color-font-title);
-}
-
-
-
-.nav-item {
-
 }
 
 .nav-link {
@@ -60,29 +78,28 @@
     color: var(--color-font-text);
 }
 
-.contacts-item {
-
-}
-
 .contacts-link {
     color: var(--color-font-text);
+}
+
+.contacts-link:focus, .contacts-link:hover {
+    color: var(--color-font-active);
 }
 
 /* ==main============================ */
 
 /* section Hero */
-
-.hero-conteiner {
+.hero {
     background-color: var(--color-background-dark);
-    font-family: var(--font-family);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-
+    padding: 200px 0;
 }
 
 .hero-title {
     color: var(--color-light);
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
 }
 
 .hero-button {
@@ -95,29 +112,21 @@
 }
 
 /* section HWW */
-
-.conteiner-hww {
-    background-color: var(--color-light);
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+.section {
+    padding: 94px 0;
+    
 }
+
 
 .section-hww-title {
-    
-}
-
-.section-hww-list {
-
-}
-
-.section-hww-item {
-    
+        background-color: var(--color-light);
 }
 
 .section-hww-list-title {
     color: var(--color-font-title);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
 }
 
 .section-hww-text {
@@ -128,37 +137,17 @@
 }
 
 /*  section WWD */
-
-.conteiner-wwd {
-    background-color: var(--color-light);
+    
+.section-wwd-title {
+    color: var(--color-font-title);
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
 }
-    
-.section-wwd-title {
-    color: var(--color-font-title);
-}
-
-.section-wwd-list {
-
-}
-
-.section-wwd-item {
-
-}
-
-.section-wwd-img {
-
-}
 
 /* Our Team */
-
-.conteiner-ot {
+.section.section-ot {
     background-color: var(--color-background-light);
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
 }
 
 .section-ot-title {
@@ -166,18 +155,6 @@
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
-}
-
-.section-ot-list {
-
-}
-
-.section-ot-item {
-
-}
-
-.section-ot-img {
-
 }
 
 .section-ot-list-title {
@@ -189,35 +166,24 @@
 
 .section-ot-text {
     color: var(--color-background-dark);
-}
-
-.section-ot-list-title {
-
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
 }
 
 /* ==footer================= */
 
-.conteiner-footer {
+.footer {
     background-color: var(--color-font-title);
+    padding: 60px;
+}
+
+.footer-text {
+    color: var(--color-light);
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-}
-
-.footer-hero {
-
-}
-
-.footer-list {
-
-}
-
-.footer-item {
-
-}
-.footer-text {
-    color: var(--color-light);
 }
 .footer-link {
     color:  rgba(255, 255, 255, 0.6);
@@ -248,12 +214,6 @@
 }
 
 /* hero-section */
-.hero-portfolio-conteiner {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
-}
 
 .hero-portfolio-item-tittle {
     color: var(--color-font-title);
@@ -265,4 +225,8 @@
 
 .hero-portfolio-item-text {
     color: var(--color-font-text);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
 }
