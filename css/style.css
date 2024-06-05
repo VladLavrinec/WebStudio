@@ -175,7 +175,7 @@ body {
 
 .footer {
     background-color: var(--color-font-title);
-    padding: 60px;
+    padding: 60px 0;
 }
 
 .footer-text {
@@ -194,6 +194,9 @@ body {
 /* PORTFOLIO */
 
 /* filter-section */
+.filter-section {
+    padding: 94px 0 34px;
+}
 
 .filter-button {
     background-color: var(--color-background-light);
@@ -213,7 +216,11 @@ body {
     line-height: 1.62;
 }
 
-/* hero-section */
+/* gallery-section */
+
+.gallery { 
+    padding: 34px 0 94px 0 ;
+}
 
 .hero-portfolio-item-tittle {
     color: var(--color-font-title);
