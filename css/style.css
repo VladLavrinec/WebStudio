@@ -5,6 +5,7 @@
     --color-font-title: #212121;
     --color-font-text:  #757575;
     --color-font-active: #2196F3;
+    --color-border: #eee;
     /* =============================== */
 
     --color-background-dark: #2F303A;
@@ -272,6 +273,7 @@ body {
     line-height: 1.62;
     border: none;
     border-radius: 4px;
+    padding: 6px 22px;
 }
 
 .filter-button:focus,.filter-button:hover {
@@ -303,6 +305,8 @@ body {
 
 .hero-portfolio-item {
     width: 370px;
+    margin-bottom: 30px;
+    border: 1px solid var(--color-border);
 }
 
 .hero-portfolio-item-tittle {
@@ -311,6 +315,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    margin: 20px 24px 4px;
 }
 
 .hero-portfolio-item-text {
@@ -319,4 +324,5 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+    margin: 0px 24px 20px ;
 }
