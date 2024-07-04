@@ -95,7 +95,7 @@ body {
 
 .nav-item {
     display: flex;
-    flex-basis: calc(100% - 2 * 50px(3));
+    flex-basis: calc((100% - 2 * 50px) / 3);
 }
 
 
@@ -112,7 +112,7 @@ body {
 
 .contacts-item {
     display: flex;
-    flex-basis: calc(100% - 50px(2));
+    flex-basis: calc((100% - 50px) / 2);
 }
 
 .contacts-link {
@@ -181,7 +181,7 @@ body {
 .hww-item {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc(100% - 3 * 30px(4));
+    flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
 .hww-list-title {
@@ -214,7 +214,7 @@ body {
 
 .wwd-item {
     display: flex;
-    flex-basis: calc(100% - 2 * 30px(3));
+    flex-basis: calc((100% - 2 * 30px) / 3);
 }
 
 /* Our Team */
@@ -241,7 +241,7 @@ body {
     border-radius: 0 0 4px 4px;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc(100% - 3 * 30px(4));
+    flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
 .ot-list-title {
@@ -296,7 +296,7 @@ body {
 
 .filter-item {
     display: flex;
-    flex-basis: calc(100% - 4 * 8px(5))
+    flex-basis: calc((100% - 4 * 8px) / 5)
 }
 
 .filter-button {
