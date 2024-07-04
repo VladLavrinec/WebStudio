@@ -95,7 +95,6 @@ body {
 
 .nav-item {
     display: flex;
-    flex-basis: calc((100% - 2 * 50px) / 3);
 }
 
 
@@ -112,7 +111,6 @@ body {
 
 .contacts-item {
     display: flex;
-    flex-basis: calc((100% - 50px) / 2);
 }
 
 .contacts-link {
@@ -292,11 +290,6 @@ body {
     display: flex;
     justify-content: center;
     column-gap: 8px;
-}
-
-.filter-item {
-    display: flex;
-    flex-basis: calc((100% - 4 * 8px) / 5)
 }
 
 .filter-button {
