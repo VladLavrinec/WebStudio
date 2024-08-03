@@ -181,6 +181,32 @@ body {
     flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
+.hww-item::before {
+    content: '';
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: var(--color-background-light);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.attention-to-detail::before {
+    background-image: url(../images/antenna.png);
+}
+
+.punctuality::before {
+    background-image: url(../images/clock.png);
+}
+
+.planning::before {
+    background-image: url(../images/laptop.png);
+}
+
+.state-of-the-art::before {
+    background-image: url(../images/astronaut.png);
+}
+
 .hww-list-title {
     color: var(--color-font-title);
     font-family: var(--font-family);
