@@ -125,6 +125,7 @@ body {
 /* Hero */
 .hero {
     background-color: var(--color-background-dark);
+    background-image: url(../images/owetlay.png), url(../images/backgroun-img.jpg);
     padding: 200px 0;
     
 }
@@ -265,6 +266,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-basis: calc((100% - 3 * 30px) / 4);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .ot-title {
@@ -294,9 +296,15 @@ body {
 
 /* ==footer================= */
 
+
 .footer {
-    background-color: var(--color-font-title);
+    background-color: var(--color-background-dark);
     padding: 60px 0;
+}
+
+
+.footer-hero {
+    font-style: normal;
 }
 
 .footer-text {
@@ -314,6 +322,10 @@ body {
 /* PORTFOLIO */
 
 /* filter-section */
+
+.filter-tittle {
+    display: none;
+}
 
 .filter-section {
     padding: 94px 0 34px;
@@ -368,6 +380,10 @@ body {
 .hero-portfolio-item {
     outline: 1px solid var(--color-border);
     flex-basis: calc((100% - 2 * 30px) / 3);
+}
+
+.hero-portfolio-item:hover {
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .hero-portfolio-item-tittle {
