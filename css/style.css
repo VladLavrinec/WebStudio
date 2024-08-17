@@ -126,7 +126,10 @@ body {
 .hero {
     background-color: var(--color-background-dark);
     background-image: url(../images/owetlay.png), url(../images/backgroun-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 200px 0;
+    
     
 }
 
@@ -186,6 +189,7 @@ body {
     content: '';
     width: 270px;
     height: 120px;
+    margin-bottom: 30px;
     border-radius: 4px;
     background-color: var(--color-background-light);
     background-repeat: no-repeat;
