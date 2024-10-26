@@ -32,15 +32,25 @@
                 </nav>
                 <ul class="contacts-list">
                     <li class="contacts-item">
-                        <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="contacts-link" href="mailto:info@devstudio.com">
+                            <svg class="contacts-icon" width="16px" height="12px">
+                                <use href="./icons/symbol-defs.svg#icon-envelope"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
                     </li>
                     <li class="contacts-item">
-                        <a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        <a class="contacts-link" href="tel:+380961111111">
+                            <svg class="contacts-icon" width="10px" height="16px">
+                                <use href="./icons/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
                     </li>
                 </ul>        
         </div>  
     </header>
-    <!-- головна частина -->
+    <!-- hero - головна частина -->
     <main>
         <section class="hero">
             <div class="container">
@@ -53,14 +63,22 @@
             </button>
             </div>
         </section>
-        <!-- How We Work -->
+        <!-- HWW - How We Work -->
         <section class="section">
             <div class="container">
                 <h2 class="hww-title">
                     як ми працюєм 
                 </h2>
                 <ul class="hww-list">
-                    <li class="hww-item attention-to-detail">
+
+                    <!-- ANTENA -->
+
+                    <li class="hww-item">
+                        <div class="hww-background">
+                            <svg width="60px" height="60px" class="hww-icon">
+                                <use href="./icons/symbol-defs.svg#icon-antenna"></use>
+                            </svg>
+                        </div>
                         <h3 class="hww-list-title">
                             УВАГА ДО ДЕТАЛЕЙ
                         </h3>
@@ -68,7 +86,15 @@
                             Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                         </p>
                     </li>
+
+                    <!-- CLOCK -->
+
                     <li class="hww-item punctuality">
+                        <div class="hww-background">
+                            <svg width="60px" height="60px" class="hww-icon">
+                                <use href="./icons/symbol-defs.svg#icon-clock"></use>
+                            </svg>
+                        </div>
                         <h3 class="hww-list-title">
                             ПУНКТУАЛЬНІСТЬ
                         </h3>
@@ -76,7 +102,15 @@
                             Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                         </p>
                     </li>
+
+                    <!-- LAPTOPE -->
+                    
                     <li class="hww-item planning">
+                        <div class="hww-background">
+                            <svg width="60px" height="60px" class="hww-icon">
+                                <use href="./icons/symbol-defs.svg#icon-laptop"></use>
+                            </svg>
+                        </div>
                         <h3 class="hww-list-title">
                             ПЛАНУВАННЯ
                         </h3>
@@ -84,7 +118,15 @@
                             Так само консультація з широким активом значною мірою зумовлює.
                         </p>
                     </li>
+
+                    <!-- ASTRONAUT -->
+                    
                     <li class="hww-item state-of-the-art">
+                        <div class="hww-background">
+                            <svg width="60px" height="60px" class="hww-icon">
+                                <use href="./icons/symbol-defs.svg#icon-astronaut"></use>
+                            </svg>
+                        </div>
                         <h3 class="hww-list-title">
                             СУЧАСНІ ТЕХНОЛОГІЇ
                         </h3>
@@ -96,7 +138,7 @@
             </div>
             
         </section>
-        <!-- What We Do -->
+        <!-- WWD - What We Do -->
         <section class="section">
             <div class="container"> 
                 <h2 class="title">
@@ -117,7 +159,7 @@
             </div>
             
         </section>
-        <!-- Our Team -->
+        <!--OT - Our Team -->
         <section class="section section-ot">
             <div class="container">
                 <h2 class="title">
@@ -133,6 +175,48 @@
                             <p class="ot-title">
                                 Product Designer
                             </p>
+                            <ul class="ot-filter-list">
+                                
+                                <!-- 1 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-instagram"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <!-- 2 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-twitter"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <!-- 3 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-facebook"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <!-- 4 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-linkedin"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="ot-item">
@@ -144,6 +228,48 @@
                             <p class="ot-title">
                                 Frontend Developer
                             </p>
+                            <ul class="ot-filter-list">
+                                
+                                <!-- 1 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-instagram"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <!-- 2 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-twitter"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <!-- 3 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-facebook"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <!-- 4 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-linkedin"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="ot-item">
@@ -155,6 +281,48 @@
                             <p class="ot-title">
                                 Marketing
                             </p>
+                            <ul class="ot-filter-list">
+                                
+                                <!-- 1 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-instagram"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <!-- 2 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-twitter"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <!-- 3 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-facebook"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <!-- 4 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-linkedin"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="ot-item">
@@ -166,30 +334,161 @@
                             <p class="ot-title">
                                 UI Designer
                             </p>
+                            <ul class="ot-filter-list">
+                                
+                                <!-- 1 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-instagram"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <!-- 2 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-twitter"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <!-- 3 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-facebook"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <!-- 4 -->
+
+                                <li class="ot-filter-item">
+                                    <a class="ot-filter-link" href="">
+                                        <svg class="ot-filter-image">
+                                            <use href="./icons/symbol-defs.svg#icon-linkedin"> </use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                 </ul>
             </div>
-            
+        </section>
+        <!-- RC - Regular customers  -->
+        <section class="section">
+            <div class="container">
+                <h2 class="title">
+                    Постійні клієнти
+                </h2>
+                <ul class="rc-list">
+                    <!-- 1 -->
+                    <li class="rc-item">
+                        <svg width="41px" height="46px" class="rc-image">
+                            <use href="./icons/symbol-defs.svg#icon-client-1"> </use>
+                        </svg>
+                    </li>
+                    <!-- 2 -->
+                    <li class="rc-item">
+                        <svg width="40px" height="51px" class="rc-image">
+                            <use href="./icons/symbol-defs.svg#icon-client-2"> </use>
+                        </svg>
+                    </li>
+                    <!-- 3 -->
+                    <li class="rc-item"> 
+                        <svg width="45px" height="42px" class="rc-image">
+                            <use href="./icons/symbol-defs.svg#icon-client-3"> </use>
+                        </svg>
+                    </li>
+                    <!-- 4 -->
+                    <li class="rc-item">
+                        <svg width="84px" height="40px" class="rc-image">
+                            <use href="./icons/symbol-defs.svg#icon-clientr-4"> </use>
+                        </svg>
+                    </li>
+                    <!-- 5 -->
+                    <li class="rc-item">
+                        <svg width="63px" height="47px" class="rc-image">
+                            <use href="./icons/symbol-defs.svg#icon-client-5"> </use>
+                        </svg>
+                    </li>
+                    <!-- 6 -->
+                    <li class="rc-item">
+                        <svg width="94px" height="45px" class="rc-image">
+                            <use href="./icons/symbol-defs.svg#icon-client-6"> </use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <!-- підвал сайту -->
     <footer class="footer">
-        <div class="container">
-            <a class="logo" href="./"><span class="web">Web</span><span class="footer-studio">Studio</span></a>
-            <address class="footer-hero">
-                <ul class="footer-list">
-                    <li class="footer-item">
-                        <p class="footer-text">м. Київ, пр-т Лесі Українки, 26</p>
-                    </li>
-                    <li class="footer-item">
-                        <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li class="footer-item">
-                        <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
-                    </li>
-                </ul>
-            </address>
+        <div class="container footer-position">
+                <div class="footer-part">
+                    <a class="logo" href="./"><span class="web">Web</span><span class="footer-studio">Studio</span></a>
+                    <address class="footer-hero">
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <p class="footer-text">м. Київ, пр-т Лесі Українки, 26</p>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+                </div>
+
+                <!-- 2 -->
+                
+                <div class="footer-part">
+                    <h3 class="footer-title">
+                        приєднуйтесь
+                    </h3>
+                    <ul class="follow-list">
+                        <!-- 1 -->
+                         <li class="follow-item">
+                            <a class="follow-link" href="./">
+                                <svg class="follow-image">
+                                    <use href="./icons/symbol-defs.svg#icon-instagram"> </use>
+                                </svg>
+                            </a>
+                        </li>
+                         <!-- 2 -->
+                         <li class="follow-item">
+                            <a class="follow-link" href="./">
+                                <svg class="follow-image">
+                                    <use href="./icons/symbol-defs.svg#icon-twitter"> </use>
+                                </svg>
+                            </a>
+                         </li>
+                         <!-- 3 -->
+                         <li class="follow-item">
+                            <a class="follow-link" href="./">
+                                <svg class="follow-image">
+                                    <use href="./icons/symbol-defs.svg#icon-facebook"> </use>
+                                </svg>
+                            </a>
+                         </li>
+                         <!-- 4 -->
+                         <li class="follow-item">
+                            <a class="follow-link" href="./">
+                                <svg class="follow-image">
+                                    <use href="./icons/symbol-defs.svg#icon-linkedin"> </use>
+                                </svg>
+                            </a>
+                         </li>
+                    </ul>
+                </div>
         </div>       
     </footer>
 </body>
