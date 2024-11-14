@@ -58,7 +58,7 @@
             <h1 class="hero-title">
                 Ефективні рішення для вашого бізнесу
             </h1>
-            <button type="button" class="hero-button">
+            <button type="button" class="hero-button" data-modal-open>
                 Замовити послугу
             </button>
             </div>
@@ -498,7 +498,107 @@
                          </li>
                     </ul>
                 </div>
+
+            <!-- 3 -->
+
+            <div class="footer-part footer-part-3">
+                <form autocomplete="on">
+                    <label for="email" class="label-footer">Підпишіться на розсилку</label>
+                    <div class="input-footer-container">
+                        <input type="text" id="email" class="input-footer" placeholder="E-mail">
+                    </div>
+                </form>
+
+                <button type="button" class="footer-follow-btn">
+                    Підписатися
+                    <svg class="footer-follow-btn-icon">
+                        <use href="./icons/symbol-defs.svg#icon-telegram"></use>
+                    </svg>
+                </button>
+            </div>
         </div>       
     </footer>
+    
+<!-- Розмітка модального вікна -->
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close-btn" data-modal-close>
+                <svg width="11px" height="11px" class="modal-close-btn-icon">
+                    <use href="./icons/symbol-defs.svg#icon-close-btn"></use>
+                </svg>
+            </button>
+
+            <p class="modal-text">
+                Залиште свої дані, ми вам передзвонимо
+            </p>
+            <form autocomplete="on">
+
+                <!-- Name -->
+
+                <div class="hero-modal-form-filed">
+                    <label for="name" class="hero-modal-label">Ім'я</label>
+                    <div class="input-container">
+                        <input type="text" id="name" class="hero-modal-input" required> 
+                            <svg class="hero-modal-icon" width="12" height="12">
+                                <use href="./icons/symbol-defs.svg#icon-person"></use>
+                            </svg>
+                    </div>
+                </div>
+
+                <!-- Phone -->
+
+                <div class="hero-modal-form-filed">
+                    <label for="number" class="hero-modal-label">Телефон</label>
+                    <div class="input-container">
+                        <input type="text" id="number" class="hero-modal-input" required>
+                            <svg class="hero-modal-icon" width="12" height="12">
+                                <use href="./icons/symbol-defs.svg#icon-phone-modal"></use>
+                            </svg>
+                    </div>
+                </div>
+
+                <!-- Email -->
+
+                <div class="hero-modal-form-filed">
+                    <label for="email" class="hero-modal-label">Коментар</label>
+                    <div class="input-container">
+                        <input type="text" id="email" class="hero-modal-input" required>
+                            <svg class="hero-modal-icon" width="12" height="12">
+                                <use href="./icons/symbol-defs.svg#icon-envelope-modal"></use>
+                            </svg>
+                    </div>
+                </div>
+
+                <!-- Comment -->
+
+                <div class="hero-modal-form-filed">
+                    <label for="comments" class="hero-modal-label">Коментар</label>
+                    <div class="input-container">
+                        <textarea 
+                            name="comments" 
+                            id="comments"
+                            class="hero-modal-comment"
+                            placeholder="Введіть текст"
+                        ></textarea>
+                    </div>
+                </div>
+
+                <!-- CheckBox -->
+
+                <div class="hero-modal-checkbox">
+                    <input type="checkbox" name="checkbox" id="checkbox" class="hero-input-check">
+                    <label for="checkbox" class="hero-label-check">
+                        Погоджуюся з розсилкою та приймаю
+                        <a href="./" class="hero-modal-check-link">Умови договору</a>
+                    </label>
+                </div>
+            </form>
+            <button type="button" class="modal-button">
+                Відправити
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
